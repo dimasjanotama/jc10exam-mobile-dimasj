@@ -24,14 +24,14 @@ export default function App() {
   })
 
   // Replace config ini dengan config kalian sendiri ya gengs
-  var firebaseConfig = {
-    apiKey: "AIzaSyBMAdFSBKVTyiK4UV8dSQ1lbjGCSe7CL_4",
-    authDomain: "todoexam-4c540.firebaseapp.com",
-    databaseURL: "https://todoexam-4c540.firebaseio.com",
-    projectId: "todoexam-4c540",
-    storageBucket: "todoexam-4c540.appspot.com",
-    messagingSenderId: "655931496750",
-    appId: "1:655931496750:web:02985332a705493811c2bf"
+  const firebaseConfig = {
+    apiKey: "AIzaSyAss6G6sK2sGM89TRVtxXHYfUGzy0f8p44",
+    authDomain: "todo-exam.firebaseapp.com",
+    databaseURL: "https://todo-exam.firebaseio.com",
+    projectId: "todo-exam",
+    storageBucket: "todo-exam.appspot.com",
+    messagingSenderId: "712447727595",
+    appId: "1:712447727595:web:352b5934e8c35c786cabae"
   };
   // Initialize Firebase
   if (!firebase.apps.length) {
